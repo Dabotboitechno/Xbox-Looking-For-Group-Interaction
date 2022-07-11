@@ -5,18 +5,9 @@ import json
 class LFG_Post_Collector:
     def __init__(self):
         self.club_ids = [
-            '267695549',  # Fortnite (Xbox)
-            '1791712750', # Minecraft (PC)
-            '1828326430', # Minecraft (Xbox)
-            '2030093255', # Forza Horizon 5 (PC/Xbox)
-            '1717113201', # Sea of Thieves (PC/Xbox)
             '342226876',  # ROBLOX (Xbox)
-            '175227487',  # Apex Legends (Xbox)
-            '926771636',  # Tom Clancy's Rainbow Six Siege (Xbox)
-            '558797228',  # Rocket League (Xbox)
-            '609700427',  # Call of Duty: Modern Warfare (Xbox)
-            '972249091',  # Grand Theft Auto V
-            '1778348973'  # Grand Theft Auto Online
+      
+   
         ]
 
     async def retrieve_posts(self, session: aiohttp.ClientSession, token):
